@@ -1,0 +1,46 @@
+.banner-container {
+    width: 100%;
+    max-width: 1920px; /* Adjust as needed */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.banner-container .slide{
+    height: 450px;
+}
+
+.banner-container .slide img {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+@media (max-width:980px) {
+    .banner-container .slide{
+        height: 350px;
+    }
+}
+
+@media (max-width:700px) {
+    .banner-container .slide{
+        height: 250px;
+    }
+}
+
+@media (max-width:550px) {
+    .banner-container .slide{
+        height: 240px;
+    }
+}
+
+@media (max-width:470px) {
+    .banner-container .slide{
+        height: 200px;
+    }
+}
+
+@media (max-width:420px) {
+    .banner-container .slide{
+        height: 130px;
+    }
+}

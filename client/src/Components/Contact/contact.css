@@ -1,0 +1,75 @@
+.contact-section{
+    width: 100%;
+}
+
+.contact-section .contact-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+.contact-section .contact-container .address-box{
+    background-image: url(./bg.webp);
+    padding: 20px;
+}
+
+.contact-section .contact-container .form{
+    background-color: #28834C;
+    padding: 20px;
+}
+
+.contact-section .contact-container .address-box h2{
+    color: white;
+    font-weight: 700;
+}
+
+.contact-section .contact-container .form h2{
+    color: white;
+    font-weight: 700;
+}
+
+.bg-image{
+    background-image: url(./bg.webp);
+}
+
+.forBorder{
+    border: 1px solid white;
+    margin: 0px;
+    height: 80px;
+}
+
+.for_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 100%;
+    padding: 0px 20px;
+}
+
+.for_icon i{
+    font-weight: 700;
+}
+
+@media(max-width:750px){
+    .forBorder{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .forBorder h5{
+        text-align: center;
+    }
+
+    .forBorder p{
+        text-align: center;
+    }
+
+    .forBorder .for_icon{
+        padding: 13px 23px;
+    }
+
+    .forBorder .for_icon i{
+        font-size: 30px;
+    }
+}

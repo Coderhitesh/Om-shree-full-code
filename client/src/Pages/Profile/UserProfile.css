@@ -1,0 +1,88 @@
+.profile-page {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding-bottom: 3rem;
+  }
+  
+  .profile-header {
+    background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+  }
+  
+  .profile-avatar {
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-tabs .nav-pills {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .profile-tabs .nav-link {
+    color: #6c757d;
+    font-weight: 500;
+    padding: 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .profile-tabs .nav-link:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .profile-tabs .nav-link.active {
+    background-color: #28834C;
+    color: white;
+  }
+  
+  .profile-tabs .nav-link.text-danger {
+    color: #dc3545;
+  }
+  
+  .profile-tabs .nav-link.text-danger:hover {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .card {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .table > :not(caption) > * > * {
+    padding: 1rem;
+  }
+  
+  .badge {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+  }
+  
+  .form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  }
+  
+  @media (max-width: 768px) {
+    .profile-header {
+      text-align: center;
+    }
+    
+    .profile-avatar {
+      margin: 0 auto 1rem;
+    }
+    
+    .profile-tabs .nav-link {
+      padding: 0.75rem 0.5rem;
+      font-size: 0.9rem;
+    }
+  }

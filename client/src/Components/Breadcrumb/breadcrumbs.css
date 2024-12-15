@@ -1,0 +1,20 @@
+.breadcrumbs{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./bg.webp);
+    color: white;
+}
+
+.map{
+    padding: 10px;
+    box-shadow: 1px 1px 3px rgb(137, 137, 137);
+    border: 1px solid rgb(133, 133, 133);
+}
+
+.map iframe{
+    width: 100%;
+    height: 300px;
+}

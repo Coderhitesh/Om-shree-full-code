@@ -1,0 +1,46 @@
+.indro-section{
+    width: 100%;
+}
+
+.indro-section .into-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.indro-section .into-container .heading{
+    width: 100%;
+}
+
+.indro-section .into-container .heading h2{
+    text-align: center;
+    font-weight: 700;
+}
+
+.indro-section .into-container iframe{
+    width: 100%;
+    height: 300px;
+}
+
+.indro-section .into-container .video-box{
+    /* padding: 20px; */
+    border: 5px solid white;
+    box-shadow: 1px 1px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:750px){
+    .indro-section .into-container{
+        padding: 20px;
+    }
+
+    .indro-section .into-container iframe{
+        width: 100%;
+        height: 230px;
+    }
+}
